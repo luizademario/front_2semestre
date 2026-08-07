@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /*seria como os px mas dividindo em partes, a coluna um vai ocupar 2 vezes mais que a uma */
+    grid-template-rows: 3fr 1fr;
+    height: 100vh;
+    gap: 10 px;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+.grid>*{
+    border-radius: 10px;
+    border: 1px solid #000;
+}
